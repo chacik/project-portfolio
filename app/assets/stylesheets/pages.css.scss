@@ -1,0 +1,49 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+  font-family:"Roboto", sans-serif; 
+  font-size:18px;
+}
+ul {list-style:none;}
+.menu li, .name h1 {
+  font-weight:500;
+  /*height:100px;*/
+  line-height:100px;
+  margin-right:20px;
+  color:#000;
+}
+.menu ul, .name h1 {
+  margin:0;
+  padding:0
+}
+.menu li, .footer li {display:inline;}
+.footer li {margin-left:10px;}
+.name h1 {text-align:right; font-size:20px;}
+
+.home .jumbotron {
+  width:100%;
+  padding-top:200px;
+  min-height:600px;
+  background:url("http://www.instantlife.eu/img/bg-min.jpg") center center;
+  background-size:cover;
+  text-align:right;
+}
+.home h2 {
+  font-size:48px;
+  line-height:56px;
+  text-align:right;
+  color:#333;
+}
+a.btn {
+  padding:10px 20px;
+  background-color:#000;
+  color:#fff;
+  border-radius:0;
+  margin:40px 0;
+}
+.footer {
+  height:200px;
+  text-align:right;
+}
+.social img {width:24px}
